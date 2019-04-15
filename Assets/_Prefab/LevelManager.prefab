@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5796280275028330684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5796280275028330626}
+  - component: {fileID: 5796280275028330685}
+  - component: {fileID: 5796280275028330627}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5796280275028330626
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5796280275028330684}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.4972835, y: -4.451127, z: 3.9804688}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5796280275028330685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5796280275028330684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff7c65c801493f41b19af002140e90f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerSpeed: 10
+  speedLimit: 4
+  platformRedirect: {fileID: 4584327397787419222, guid: c90c487eb6f74bf47a9f5bf1377dba3d,
+    type: 3}
+  platformWind: {fileID: 6999757302023641754, guid: 7aa964ffdfabf4944bb1f29d336d80bf,
+    type: 3}
+  platformWindPower: 30
+  isWin: 0
+  isRestart: 0
+  isPlacementMode: 1
+  isStarCollected: 0
+  mousePosition: {x: 0, y: 0, z: 0}
+  startPos: {x: 0, y: 0, z: 0}
+  activePlatform: 0
+  sfxPlayerRun: {fileID: 8300000, guid: 39a7a08b6839efc4da007bc1a15a4284, type: 3}
+  sfxPlayerIdle: {fileID: 8300000, guid: 11dcd847b4b53b04eb71fd9f20b92daa, type: 3}
+  sfxPlayerFall: {fileID: 8300000, guid: 59fdc4fafe2c50e4aa817f395376fea9, type: 3}
+  sfxButtonHover: {fileID: 8300000, guid: 633437dd6eff5784d878529e076c2d90, type: 3}
+  sfxButtonClick: {fileID: 8300000, guid: 371ccbfef617d87458f0c382a730af21, type: 3}
+--- !u!114 &5796280275028330627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5796280275028330684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b62115021ef752941985470bd10f280b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
